@@ -1,0 +1,139 @@
+/* Paleta de Cores do Colégio Garcez:
+   - Azul Escuro: #0a2540
+   - Azul Claro: #0077b6 / #90e0ef
+   - Branco: #ffffff
+   - Fundo Neutro: #f0f4f8
+*/
+
+body {
+  background-color: #f0f4f8;
+  color: #0a2540;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  border-bottom: 3px solid #0077b6;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  background-color: #0a2540;
+  color: #ffffff;
+  padding-top: 20px;
+  border-radius: 8px 8px 0 0;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.subtitulo {
+  font-style: italic;
+  color: #90e0ef;
+  margin-bottom: 15px;
+}
+
+nav .btn {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #0a2540;
+  border: 2px solid #0077b6;
+  padding: 8px 14px;
+  margin: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+nav .btn:hover, nav .btn.ativo {
+  background-color: #0077b6;
+  color: #ffffff;
+}
+
+.cartao-vintage {
+  background-color: #ffffff;
+  border: 2px solid #0077b6;
+  padding: 25px;
+  max-width: 650px;
+  margin: 0 auto;
+  box-shadow: 6px 6px 0px #0a2540;
+  text-align: left;
+  border-radius: 0 0 8px 8px;
+}
+
+.cartao-vintage h2 {
+  text-align: center;
+  color: #0a2540;
+  border-bottom: 2px solid #90e0ef;
+  padding-bottom: 8px;
+  margin-top: 0;
+}
+
+/* Estilo para as Imagens nas Páginas */
+.imagem-ambiente {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border: 3px solid #0a2540;
+  border-radius: 6px;
+  margin: 15px 0;
+  display: block;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+button#btnMensagem {
+  display: block;
+  margin: 20px auto 0 auto;
+  background-color: #0a2540;
+  color: #ffffff;
+  border: none;
+  padding: 10px 18px;
+  font-family: 'Georgia', serif;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+button#btnMensagem:hover {
+  background-color: #0077b6;
+}
+
+.destaque {
+  font-weight: bold;
+  color: #0077b6;
+  margin-top: 15px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: #0a2540;
+  border-top: 1px solid #0077b6;
+  padding-top: 15px;
+}
+/* Estilo ajustado para as Imagens caberem no espaço */
+.imagem-ambiente {
+  width: 100%;             /* Ocupa a largura total do cartão */
+  max-width: 100%;         /* Impede que a imagem saia da caixa */
+  height: auto;            /* Mantém a proporção original sem distorcer */
+  max-height: 350px;       /* Limita a altura máxima */
+  object-fit: contain;     /* Garante que toda a imagem fique visível sem cortes */
+  border: 3px solid #0a2540;
+  border-radius: 6px;
+  margin: 15px 0;
+  display: block;
+  box-sizing: border-box; /* Inclui a borda no cálculo do tamanho */
+}
